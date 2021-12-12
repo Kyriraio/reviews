@@ -36,10 +36,7 @@ $reviews=array("Я благодарен своему тренеру за эфф�
     "Рада, что смогла найти своего тренера. Очень нравится индивидуальный подход. Мы сразу нашли общий язык. На тренировках все чётко, понятно.");
 
 $reviewsGender=array("m","n","n","n","n","n","n","n","n","w","w","w");
-// these vars we'll be use as an indicator that reviews are over
-$countOfMReviews=Count($mReviews);
-$countOfNReviews=Count($nReviews);
-$countOfWReviews=Count($wReviews);
+
 
 
 $mViewersName=array("Устинов Иван","Ильинский Даниил","Попов Георгий","Сергеев Фёдор","Куликов Лев","Рожков Давид",
@@ -72,8 +69,6 @@ $wViewersName=array("Окулова Таисия","Грекова Алиса","�
 $mViewerPointer=0;
 $wViewerPointer=0;
 
-//It's too long to shuffle Reviews arrays
-$ReviewsRandNums=range(0,$countOfReviews-1);
 
 for($i=0;$i<count($trainers);$i++)
 {
