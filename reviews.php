@@ -49,9 +49,7 @@ $viewers=array(
             "Василина","Зарина","Алия","Владислава","Самира","Антонина","Ника","Мадина","Наташа","Каролина","Снежана","Юлиана","Ариана","Эльмира","Ясмина","Жанна")
 );
 
-//these pointers will be used in ViewersName arrays
-$mViewerPointer=0;
-$wViewerPointer=0;
+
 function getRandFullName($viewers,$sex)
 {
     if ($sex == "n") {
